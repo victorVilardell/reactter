@@ -1,0 +1,31 @@
+{
+  "name": "reactter",
+  "version": "1.0.0",
+  "description": "Cron de Twiter con react para propositos educativos",
+  "main": "/build/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorVilardell/reactter.git"
+  },
+  "author": "Victor Vilardell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorVilardell/reactter/issues"
+  },
+  "homepage": "https://github.com/victorVilardell/reactter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
