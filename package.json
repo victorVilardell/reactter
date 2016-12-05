@@ -4,7 +4,9 @@
   "description": "Cron de Twiter con react para propositos educativos",
   "main": "/build/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --colors",
+    "server": "webpack-dev-server --content-base build/ --colors --progress",
+    "start": "npm run build && npm run server"
   },
   "repository": {
     "type": "git",
