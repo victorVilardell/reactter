@@ -5,8 +5,9 @@
   "main": "/build/app.js",
   "scripts": {
     "build": "webpack --colors",
-    "server": "webpack-dev-server --content-base build/ --colors --progress",
-    "start": "npm run build && npm run server"
+    "serve": "webpack-dev-server --content-base build/ --colors --progress",
+    "start": "npm run build && npm run serve",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,14 +21,23 @@
   "homepage": "https://github.com/victorVilardell/reactter#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
+    "babel-jest": "^17.0.2",
     "babel-loader": "^6.2.8",
+    "babel-polyfill": "^6.20.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "css-loader": "^0.26.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.24.1",
+    "jest": "^17.0.3",
+    "react-addons-test-utils": "^15.4.1",
+    "react-test-renderer": "^15.4.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
   }
 }
